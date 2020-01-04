@@ -1,3 +1,20 @@
+To build this project you should install 'yarn'
+
+Yarn is javascript package which made from Facebook
+
+## npm install -g yarn
+
+## yarn start
+
+install 한 목록
+
+.yarn
+.query-string
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
