@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
-import { Home, About,Posts } from 'pages';
+import { Home, About, Posts, Langs } from 'pages';
 import { Menu } from 'components';
 //import { Menu } from '/components'
 /**
@@ -35,6 +35,7 @@ class App extends Component {
                     <Route path="/about" component={About}/>
                 </Switch>
                 <Route path="/posts" component={Posts}/>
+                <Route path="/langs" component={Langs}/>
             </div>
         )
     }

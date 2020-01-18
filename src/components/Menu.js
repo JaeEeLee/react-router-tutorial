@@ -50,6 +50,7 @@ class Menu extends Component {
                     <li><NavLink exact to="/about" activeStyle={this.activeStyle}>About</NavLink></li>
                     <li><NavLink to="/about/foo" activeStyle={this.activeStyle}>About Foo</NavLink></li>
                     <li><NavLink to="/posts" activeStyle={this.activeStyle}>Posts Foo</NavLink></li>
+                    <li><NavLink to="/langs" activeStyle={this.activeStyle}>Langs</NavLink></li>
                 </ul>
                 <hr/>
             </div>
